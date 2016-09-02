@@ -1,20 +1,86 @@
 html, body {
 
 overflow-x: hidden;
-
-}
-
-body {
+font-family: Titillium Web;
+background-color: #F1F1F1;
 
 
 }
+
+font-family: 'Titillium Web', sans-serif;
+
 
 h1, h2, h3, h4, h5, h6 {
+
+	font-family: Titillium Web;
+
+
+
+}
+
+header div h1 {
+
+	font-family: Titillium Web;
+	font-size: 35px;
+	/*margin-right: 1660px;*/
+	/*padding-right: 1685px;*/
+	border: 1px dotted green;
+	height: 200px;
+	width: 14%;
+
+}
+
+section.features {
+
+	width: 1440px;
+
+	border: 1px dotted green;
+	background: #4A90E2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
+}
+
+section.midsection {
+
+	width: 1440px;
+	border: 1px dotted blue;
+	background: #4A90E2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
+
+
+}
+
+section.midsection div#image1 img {
+
+	width: 350px;
+	background-image: "images/access-photo.png";
+}
+
+section.midsection div#image2 img {
+
+	width: 350px;
+	background-image: "images/access-photo.png";
+}
+
+
+
+
+header div  {
 
 
 }
 
 p {
+
+
+}
+
+footer {
 
 
 }
@@ -33,4 +99,5 @@ p {
 .hero {
 	background-image: url("../images/primaryhero.png");
 	padding-bottom: 600px;
+	background-repeat: no-repeat;
 }
