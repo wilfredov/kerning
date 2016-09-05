@@ -169,6 +169,11 @@ h2 {
 	/*text-shadow: 0px 1px 0px #EAEAEA;*/
 }
 
+img[src="../images/photos_icon.png"] {
+
+    
+}
+
 .kpnotes {
 
 	float: left;
@@ -178,6 +183,12 @@ h2 {
 	color: #F1F1F1;
 	letter-spacing: 0px;
 	line-height: 25px;
+
+}
+
+img[src="../images/notes_icon.png"] {
+
+    
 }
 
 .kpdocs {
@@ -191,6 +202,10 @@ h2 {
 	letter-spacing: 0px;
 	line-height: 25px;
 }
+
+img[src="../images/doc_icon.png"] {
+
+    
 }
 
 .midsection1 {
