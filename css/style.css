@@ -288,10 +288,62 @@ img[src="../images/doc_icon.png"] {
 
 	width: 1440px;
 	height: 248px;
-	position: absolute;
-	padding-left: 310px;
+	/*position: absolute;*/
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
 }
+
+.testimonials {
+
+	width: 1440px;
+	height: 494px;
+/*	background:rgba(#D7E8F3,0.71);
+	background-image: url("../images/testimonial_pic.png");*/
+
+	background-color: rgba(#D7E8F3, 0.71);,
+	url(../images/testimonial_pic.png);
+
+
+	
+}
+
+.sign_up {
+
+	width: 1440px;
+	height: 500px;
+	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
+
+}
+
+.pricing-co {
+
+	width: 1440px;
+	height: 520px;
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
+}
+
+.basicbox {
+
+	width: 521px;
+	height: 348px;
+	float: left;
+	background: #4A90E2;
+}
+
+.creativebox {
+
+
+
+
+}
+
+.directorbox {
+
+	width: 521px;
+	height: 348px;
+	float: right;
+	background: #4A90E2;
+}
+
 
 
 
