@@ -296,15 +296,20 @@ img[src="../images/doc_icon.png"] {
 
 	width: 1440px;
 	height: 494px;
-/*	background:rgba(#D7E8F3,0.71);
-	background-image: url("../images/testimonial_pic.png");*/
-
-	background-color: rgba(#D7E8F3, 0.71);,
-	url(../images/testimonial_pic.png);
+	background-image: url("../images/testimonial_pic.png");
 
 
 	
 }
+
+.first_quote {
+
+	width: 1440px;
+	height: 494px;
+	background-color: rgba(213,238,255,0.72);
+
+}
+
 
 .sign_up {
 
@@ -321,7 +326,17 @@ img[src="../images/doc_icon.png"] {
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
 }
 
+.basic {
+
+
+}
+
 .basicbox {
+
+	
+}
+
+.box1 {
 
 	width: 521px;
 	height: 348px;
@@ -336,14 +351,52 @@ img[src="../images/doc_icon.png"] {
 
 }
 
+.box2 {
+	float: left;
+
+
+}
+
 .directorbox {
+
+	
+}
+
+.box3 {
 
 	width: 521px;
 	height: 348px;
 	float: right;
 	background: #4A90E2;
+
 }
 
+.footer {
+
+	width: 1440px;
+	height: 301px;
+}
+
+.headline {
+
+	width: 1440px;
+	height: 68px;
+	background: #979797;
+	
+
+
+
+}
+
+.foot-content {
+
+	width: 1440px;
+	height: 233px;
+	background: #E3EFF7;
+
+	
+
+}
 
 
 
