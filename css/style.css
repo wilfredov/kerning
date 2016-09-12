@@ -1,8 +1,8 @@
 html, body {
 
-/*overflow-x: hidden;*/
+
 font-family: Titillium Web;
-background-color: #F1F1F1;
+/*background-color: #F1F1F1;*/
 
 
 }
@@ -45,7 +45,6 @@ background-color: #F1F1F1;
 .sign_uptext a:active {
     background-color: #EC8200;
     color: white;
-    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -53,6 +52,94 @@ background-color: #F1F1F1;
 }
 
 .btn a:link {
+
+
+	font-family: TitilliumMaps29L-999wt;
+	font-size: 27px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+	/*circle is below*/
+
+    background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
+	
+
+
+}
+
+.btn a:visited {
+
+
+	font-family: TitilliumMaps29L-999wt;
+	font-size: 27px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+	/*circle is below*/
+
+    background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
+}
+
+
+.btn a:hover {
+
+
+	font-family: TitilliumMaps29L-999wt;
+	font-size: 27px;
+	color: #4A90E2;
+	text-decoration: none;
+
+	/*circle is below*/
+
+    background-color: #E3EFF7;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
+}
+
+.btn a:active {
+
+	
+	font-family: TitilliumMaps29L-999wt;
+	font-size: 27px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+
+	/*circle is below*/
+
+	background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
 
 
 }
@@ -63,21 +150,6 @@ ul {
 }
 
 
-/*.centered-wrapper {
-    position: relative;
-    text-align: center;
-}
-.centered-wrapper:before {
-    content: "";
-    position: relative;
-    display: inline-block;
-    width: 0; height: 100%;
-    vertical-align: middle;
-}
-.centered-content {
-    display: inline-block;
-    vertical-align: middle;
-}*/
 
 font-family: 'Titillium Web', sans-serif;
 
@@ -103,14 +175,13 @@ h2 {
 
 	font-family: TitilliumMaps29L-999wt;
 	font-size: 28px;
-	color: #F1F1F1;
+	color: blue;
 	letter-spacing: .2px;
 	text-align: right;
 }
 
 h6 {
 
-	/* Companies who love K: */
 	font-family: TitilliumMaps29L-800wt;
 	font-size: 20px;
 	color: #4A90E2;
@@ -125,7 +196,6 @@ h6 {
 	height: 90px;
 	opacity: 0.96;
 	background: #F1F1F1;
-	/*background: green;*/
 	position: fixed;
 	overflow: hidden;
 	margin-top: -20px;
@@ -183,7 +253,7 @@ h6 {
 .features {
 
 	width: 100%;
-	height: 750px;
+	height: 700px;
 	background: #4A90E2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
@@ -193,21 +263,44 @@ h6 {
 
 .feat-container {
 
-	display: inline-block;
-	margin-top: 175px;
+	
+	width: 100%;
+	height: 54%;
+	background: red;
 }
 
 .kpphotos {
 
 	float: left;
 	margin-right: 60px;
+	margin-left: 520px;
 	text-align: left;
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
 	color: #F1F1F1;
 	letter-spacing: 0px;
 	line-height: 25px;
-	/*text-shadow: 0px 1px 0px #EAEAEA;*/
+	
+}
+
+.kpphotos h2 {
+
+font-family: TitilliumMaps29L-800wt;
+font-size: 34px;
+color: #FFFFFF;
+
+
+}
+
+.kpphotos ul {
+
+
+font-family: TitilliumMaps29L-400wt;
+font-size: 16px;
+color: #FFFFFF;
+letter-spacing: 0px;
+line-height: 30px;
+
 }
 
 img[src="../images/photos_icon.png"] {
@@ -223,8 +316,27 @@ img[src="../images/photos_icon.png"] {
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
 	color: #F1F1F1;
-	letter-spacing: 0px;
-	line-height: 25px;
+
+
+}
+
+.kpnotes h2 {
+
+font-family: TitilliumMaps29L-800wt;
+font-size: 34px;
+color: #FFFFFF;
+
+
+}
+
+.kpnotes ul {
+
+
+font-family: TitilliumMaps29L-400wt;
+font-size: 16px;
+color: #FFFFFF;
+letter-spacing: 0px;
+line-height: 30px;
 
 }
 
@@ -245,9 +357,29 @@ img[src="../images/notes_icon.png"] {
 	line-height: 25px;
 }
 
+.kpdocs h2 {
+
+font-family: TitilliumMaps29L-800wt;
+font-size: 34px;
+color: #FFFFFF;
+
+
+}
+
 img[src="../images/doc_icon.png"] {
 
     
+}
+
+.kpdocs ul {
+
+
+font-family: TitilliumMaps29L-400wt;
+font-size: 16px;
+color: #FFFFFF;
+letter-spacing: 0px;
+line-height: 30px;
+
 }
 
 .midsection1 {
@@ -271,7 +403,7 @@ img[src="../images/doc_icon.png"] {
 	background-color: rgba(213,238,255,0.72);
 }
 
-/*how do I make the height responsive*/
+
 
 .midsection2 {
 	width: 100%;
@@ -317,16 +449,33 @@ img[src="../images/doc_icon.png"] {
 	width: 100%;
 	height: 494px;
 	background-image: url("../images/testimonial_pic.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
 
 
 	
 }
+
+
 
 .first_quote {
 
 	width: 100%;
 	height: 494px;
 	background-color: rgba(213,238,255,0.72);
+	float: left;
+
+}
+
+.first_quote h2 {
+
+
+		font-family: TitilliumMaps29L-999wt;
+		font-size: 50px;
+		color: #384555;
+		text-align: center;
+		float: clear;
 
 }
 
@@ -336,58 +485,103 @@ img[src="../images/doc_icon.png"] {
 	width: 100%;
 	height: 500px;
 	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
+	float: left;
 
 }
 
-.pricing-co {
+.price_container {
 
 	width: 100%;
 	height: 520px;
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
-}
-
-.basic {
-
-
-}
-
-.basicbox {
-
-	
-}
-
-.box1 {
-
-	width: 521px;
-	height: 348px;
 	float: left;
-	background: #4A90E2;
-}
-
-.creativebox {
-
-
-
 
 }
 
-.box2 {
+.price_header  {
+
+	width: 100%;
+	height: 175px;
 	float: left;
 
 
+
 }
 
-.directorbox {
+.price_header h2 {
+
+
+		font-family: TitilliumMaps29L-999wt;
+		font-size: 50px;
+		color: #4A90E2;
+		text-align: center;
+
+
+}
+
+.btn {
 
 	
+
 }
 
-.box3 {
+.price_options_container{
 
-	width: 521px;
-	height: 348px;
-	float: right;
-	background: #4A90E2;
+	width: 100%;
+	height: 345px;
+	background-origin: red;
+	float: left;
+}
+
+.option_box {
+
+	width: 33.3%;
+	height: 100%;
+	background-color: #4A90E2;
+	float: left;
+
+}
+
+.basic_plan {
+
+	width: 75%;
+	height: 100%
+	background-color: orange;
+	/*margin-left: 310px;*/
+	text-align: center;
+
+
+
+}
+
+.director_plan {
+
+
+	width: 75%;
+	height: 100%
+	background-color: orange;
+	margin-left: 175px;
+	text-align: center;
+
+
+
+}
+.option_box_mid {
+
+	width: 33.3%;
+	height: 100%;
+	float: left;
+
+}
+
+
+.creative_plan {
+	width: 75%;
+	height: 100%
+	background-color: orange;
+	margin-left: 175px;
+	text-align: center;
+
 
 }
 
@@ -395,6 +589,7 @@ img[src="../images/doc_icon.png"] {
 
 	width: 100%;
 	height: 301px;
+	float: left;
 }
 
 .headline {
