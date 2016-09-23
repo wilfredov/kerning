@@ -7,6 +7,10 @@ font-family: Titillium Web;
 
 }
 
+section {
+	float: left;
+}
+
 .container {
 	width: 94%;
 	margin: 0 auto;
@@ -21,6 +25,30 @@ font-family: Titillium Web;
 @media (min-width: 600px) {
 	.container {
 		width: 550px;
+		margin: 0 auto;
+	}
+
+	.one-third {
+		width: 31%;
+		margin: 0 1%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 720px;
+		margin: 0 auto;
+	}
+
+	.one-third {
+		width: 31%;
+		margin: 0 1%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1120px;
 		margin: 0 auto;
 	}
 
@@ -97,7 +125,7 @@ font-family: Titillium Web;
     border-radius: 50%;
 
 
-	
+
 
 
 }
@@ -149,7 +177,7 @@ font-family: Titillium Web;
 
 .btn a:active {
 
-	
+
 	font-family: TitilliumMaps29L-999wt;
 	font-size: 27px;
 	color: #FFFFFF;
@@ -229,16 +257,16 @@ h6 {
 
 }
 
-.logo {  
+.logo {
 
-	background-image: url(../images/site-logo.png); 
+	background-image: url(../images/site-logo.png);
 	background-repeat: no-repeat;
 	width: 150px;
 	height: 33px;
 	float: left;
 	margin-left: 310px;
 	margin-top: 25px;
-	
+
 
 }
 
@@ -253,14 +281,14 @@ h6 {
 }
 
 .hero {
-	
+
 	background-image: url("../images/primaryhero.png");
 	height: 700px ;
 	width: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 20px;
-	
+
 
 
 }
@@ -290,10 +318,10 @@ h6 {
 
 .feat-container {
 
-	
+
 	width: 100%;
 	height: 54%;
-	
+
 }
 
 .kpphotos {
@@ -306,7 +334,7 @@ h6 {
 	color: #F1F1F1;
 	letter-spacing: 0px;
 	line-height: 25px;
-	
+
 }
 
 .kpphotos h2 {
@@ -336,7 +364,7 @@ img[src="../images/photos_icon.png"] {
 	margin-left: 120px;
 	position: absolute;
 
-    
+
 }
 
 .kpnotes {
@@ -376,7 +404,7 @@ margin-left: -37px;
 
 img[src="../images/notes_icon.png"] {
 
-    
+
 }
 
 .kpdocs {
@@ -402,7 +430,7 @@ color: #FFFFFF;
 
 img[src="../images/doc_icon.png"] {
 
-    
+
 }
 
 .kpdocs ul {
@@ -423,7 +451,7 @@ margin-left: -37px;
 	background-image: url("../images/womenofcolor-hero3.png");
 	background-size: cover;
 	background-position: center;
-	
+
 
 }
 
@@ -446,7 +474,7 @@ margin-left: -37px;
 	background-image: url("../images/access-photo.png");
 	background-size: cover;
 	background-position: center;
-	
+
 
 }
 
@@ -489,7 +517,7 @@ margin-left: -37px;
 	float: left;
 
 
-	
+
 }
 
 
@@ -556,7 +584,7 @@ margin-left: -37px;
 
 .btn {
 
-	
+
 
 }
 
@@ -632,7 +660,7 @@ margin-left: -37px;
 	width: 100%;
 	height: 68px;
 	background: #979797;
-	
+
 
 
 
@@ -644,10 +672,6 @@ margin-left: -37px;
 	height: 233px;
 	background: #E3EFF7;
 
-	
+
 
 }
-
-
-
-
