@@ -7,647 +7,164 @@ font-family: Titillium Web;
 
 }
 
-.container {
-	width: 94%;
-	margin: 0 auto;
-}
-
-.one-third {
-	width: 100%;
-	margin: 0;
-	float: left;
-}
-
-@media (min-width: 600px) {
-	.container {
-		width: 550px;
-		margin: 0 auto;
-	}
-
-	.one-third {
-		width: 31%;
-		margin: 0 1%;
-	}
-}
 
 
+/*Navigation Area*/
 
-
-/* unvisited link */
-.sign_uptext a:link {
-    background-color: #EC8200;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-
-}
-
-/* visited link */
-.sign_uptext a:visited {
-    background-color: #EC8200;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-}
-
-/* mouse over link */
-.sign_uptext a:hover {
-    background-color: white;
-    color: #EC8200;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-}
-
-/* selected link */
-.sign_uptext a:active {
-    background-color: #EC8200;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-}
-
-.btn a:link {
-
-
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 27px;
-	color: #FFFFFF;
-	text-decoration: none;
-
-	/*circle is below*/
-
-    background-color: #EC8200;
-    color: white;
-    width: 127px;
-    height: 127px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50%;
-
-
-	
+.container1 {
 
 
 }
 
-.btn a:visited {
-
-
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 27px;
-	color: #FFFFFF;
-	text-decoration: none;
-
-	/*circle is below*/
-
-    background-color: #EC8200;
-    color: white;
-    width: 127px;
-    height: 127px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50%;
+.nav w3-half {
 
 
 }
 
+/* Hero Area - Sign Up Button */
 
-.btn a:hover {
+.container2 {
 
-
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 27px;
-	color: #4A90E2;
-	text-decoration: none;
-
-	/*circle is below*/
-
-    background-color: #E3EFF7;
-    color: white;
-    width: 127px;
-    height: 127px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50%;
-
-
-}
-
-.btn a:active {
-
-	
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 27px;
-	color: #FFFFFF;
-	text-decoration: none;
-
-
-	/*circle is below*/
-
-	background-color: #EC8200;
-    color: white;
-    width: 127px;
-    height: 127px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 50%;
-
-
-}
-
-ul {
-
-	list-style: none;
-}
-
-
-
-font-family: 'Titillium Web', sans-serif;
-
-
-h1, h2, h3, h4, h5, h6 {
-
-	font-family: Titillium Web;
-
-
-}
-
-h1 {
-
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 36px;
-	color: #4A90E2;
-	letter-spacing: .2px;
-
-
-}
-
-h2 {
-
-	font-family: TitilliumMaps29L-999wt;
-	font-size: 28px;
-	color: blue;
-	letter-spacing: .2px;
-	text-align: right;
-}
-
-h6 {
-
-	font-family: TitilliumMaps29L-800wt;
-	font-size: 20px;
-	color: #4A90E2;
-	letter-spacing: 0px;
-	text-align: left;
-
-}
-
-.navcontainer {
-
-	width: 100%;
-	height: 90px;
-	opacity: 0.96;
-	background: #F1F1F1;
-	position: fixed;
-	overflow: hidden;
-	margin-top: -20px;
-
-
-}
-
-.logo {  
-
-	background-image: url(../images/site-logo.png); 
-	background-repeat: no-repeat;
-	width: 150px;
-	height: 33px;
-	float: left;
-	margin-left: 310px;
-	margin-top: 25px;
-	
-
-}
-
-.sign_uptext {
-
-	font-family: TitilliumMaps29L-800wt;
-	font-size: 18px;
-	float: right;
-	margin-top: 15px;
-	margin-right: 310px;
-
-}
-
-.hero {
-	
-	background-image: url("../images/primaryhero.png");
-	height: 700px ;
-	width: 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 20px;
-	
-
-
-}
-
-
-.quote {
-
-	float: left;
-	text-align: left;
-	margin-left: 310px;
-	margin-top: 200px;
-
-}
-
-
-.features {
-
-	width: 100%;
-	padding: 100px 0;
-	display: block;
-	background: #4A90E2; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
-}
-
-.feat-container {
-
-	
-	width: 100%;
-	height: 54%;
 	
 }
 
-.kpphotos {
+.hero w3-half {
 
-	float: left;
-	margin-top: 150px;
-	text-align: left;
-	font-family: TitilliumMaps29L-400wt;
-	font-size: 16px;
-	color: #F1F1F1;
-	letter-spacing: 0px;
-	line-height: 25px;
+
+}
+
+/*Features Area*/
+
+.container3 {
+
 	
 }
 
-.kpphotos h2 {
-
-font-family: TitilliumMaps29L-800wt;
-font-size: 34px;
-color: #FFFFFF;
+.features1, .features2, .features3 {
 
 
 }
 
-.kpphotos ul {
 
-
-font-family: TitilliumMaps29L-400wt;
-font-size: 16px;
-color: #FFFFFF;
-letter-spacing: 0px;
-line-height: 30px;
-margin-left: -37px;
+w3-third {
 
 
 }
 
-img[src="../images/photos_icon.png"] {
 
-	margin-left: 120px;
-	position: absolute;
+/*Content Area*/
 
-    
-}
-
-.kpnotes {
-
-	margin-top: 150px;
-	float: left;
-	text-align: left;
-	font-family: TitilliumMaps29L-400wt;
-	font-size: 16px;
-	color: #F1F1F1;
+.container6 {
 
 
 }
 
-.kpnotes h2 {
-
-font-family: TitilliumMaps29L-800wt;
-font-size: 34px;
-color: #FFFFFF;
-
-
-}
-
-.kpnotes ul {
-
-
-font-family: TitilliumMaps29L-400wt;
-font-size: 16px;
-color: #FFFFFF;
-letter-spacing: 0px;
-line-height: 30px;
-margin-left: -37px;
+.container6 w3-half {
 
 
 
 }
 
-img[src="../images/notes_icon.png"] {
 
-    
-}
-
-.kpdocs {
-
-	margin-top: 150px;
-	float: left;
-	text-align: left;
-	font-family: TitilliumMaps29L-400wt;
-	font-size: 16px;
-	color: #F1F1F1;
-	letter-spacing: 0px;
-	line-height: 25px;
-}
-
-.kpdocs h2 {
-
-font-family: TitilliumMaps29L-800wt;
-font-size: 34px;
-color: #FFFFFF;
+.container7 {
 
 
 }
 
-img[src="../images/doc_icon.png"] {
-
-    
-}
-
-.kpdocs ul {
-
-
-font-family: TitilliumMaps29L-400wt;
-font-size: 16px;
-color: #FFFFFF;
-letter-spacing: 0px;
-line-height: 30px;
-margin-left: -37px;
-
-}
-
-.midsection1 {
-	width: 100%;
-	height: 737px;
-	background-image: url("../images/womenofcolor-hero3.png");
-	background-size: cover;
-	background-position: center;
-	
-
-}
-
-/*background position*/
-
-
-.image1 {
-	width: 50%;
-	height: 100%;
-	float: left;
-	/*padding-left: 20px;*/
-	background-color: rgba(213,238,255,0.72);
-}
-
-
-
-.midsection2 {
-	width: 100%;
-	height: 737px;
-	background-image: url("../images/access-photo.png");
-	background-size: cover;
-	background-position: center;
-	
-
-}
-
-.image2 {
-	width: 50%;
-	height: 100%;
-	float: right;
-	/*padding-left: 20px;*/
-	background-color: rgba(213,238,255,0.72);
-}
-
-.featuretext_1, .featuretext_2 {
-
-	width: 40%;
-	height: 100%;
-	margin-right: 20px;
-	float: right;
-	display:flex;
-	flex-direction: column;
-	resize: vertical;
-	justify-content: center;
-
-}
-
-.companies {
-
-	width: 100%;
-	height: 248px;
-	/*position: absolute;*/
-	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
-}
-
-.testimonials {
-
-	width: 100%;
-	height: 494px;
-	background-image: url("../images/testimonial_pic.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	float: left;
+.container7 w3-half {
 
 
 	
 }
 
+/*Who Loves Kerning Area*/
 
-
-.first_quote {
-
-	width: 100%;
-	height: 494px;
-	background-color: rgba(213,238,255,0.72);
-	float: left;
-
-}
-
-.first_quote h2 {
-
-
-		font-family: TitilliumMaps29L-999wt;
-		font-size: 50px;
-		color: #384555;
-		text-align: center;
-		float: clear;
-
-}
-
-
-.sign_up {
-
-	width: 100%;
-	height: 500px;
-	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
-	float: left;
-
-}
-
-.price_container {
-
-	width: 100%;
-	height: 520px;
-	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
-	float: left;
-
-}
-
-.price_header  {
-
-	width: 100%;
-	height: 175px;
-	float: left;
-
+.container8 {
 
 
 }
 
-.price_header h2 {
 
-
-		font-family: TitilliumMaps29L-999wt;
-		font-size: 50px;
-		color: #4A90E2;
-		text-align: center;
+.container8 w3-half {
 
 
 }
 
-.btn {
+.container9 {
+
+
+}
+
+
+.container9 w3-half {
 
 	
-
 }
 
-.price_options_container{
+/*Testimonials*/
 
-	width: 100%;
-	height: 345px;
-	background-origin: red;
-	float: left;
-}
-
-.option_box {
-
-	width: 33.3%;
-	height: 100%;
-	background-color: #4A90E2;
-	float: left;
-
-}
-
-.basic_plan {
-
-	width: 75%;
-	height: 100%
-	background-color: orange;
-	/*margin-left: 310px;*/
-	text-align: center;
+.container10 {
 
 
 
 }
 
-.director_plan {
+/*Sign Up Box*/
 
-
-	width: 75%;
-	height: 100%
-	background-color: orange;
-	margin-left: 175px;
-	text-align: center;
-
-
-
-}
-.option_box_mid {
-
-	width: 33.3%;
-	height: 100%;
-	float: left;
-
-}
-
-
-.creative_plan {
-	width: 75%;
-	height: 100%
-	background-color: orange;
-	margin-left: 175px;
-	text-align: center;
+.container11 {
 
 
 }
 
-.footer {
-
-	width: 100%;
-	height: 301px;
-	float: left;
-}
-
-.headline {
-
-	width: 100%;
-	height: 68px;
-	background: #979797;
-	
-
+.container11 w3-half {
 
 
 }
 
-.foot-content {
 
-	width: 100%;
-	height: 233px;
-	background: #E3EFF7;
+.container12 {
+
+
+}
+
+.container12 w3-half {
 
 	
+}
+/*Priciing Area*/
+
+.container13 {
+
 
 }
 
+.container13 w3-half {
+
+	
+}
+
+
+.container14 {
+
+
+}
+
+.container14 w3-half {
+
+	
+}
+
+.container15 {
+
+
+}
+
+.container15 w3-half {
+
+	
+}
+
+/*Footer Area*/
 
 
 
