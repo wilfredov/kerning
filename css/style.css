@@ -12,11 +12,28 @@ font-family: Titillium Web;
 /*Navigation Area*/
 
 .container1 {
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	background: red;
 
 
 }
 
-.nav w3-half {
+.nav1 w3-half {
+	width: 49%
+	margin: 0 auto;
+	float: left;
+	background: green;
+
+
+}
+
+.nav2 w3-half {
+	width: 49%
+	margin: 0 auto;
+	float: right;
+	background: pink;
 
 
 }
@@ -25,10 +42,16 @@ font-family: Titillium Web;
 
 .container2 {
 
+	background-image: url("../images/primaryhero.png");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
 	
 }
 
-.hero w3-half {
+.hero1 w3-half {
 
 
 }
