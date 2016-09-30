@@ -7,12 +7,15 @@ font-family: Titillium Web;
 
 }
 
-
+.main-container { 
+	width: 100%;
+	height: 2000px
+ }
 
 /*Navigation Area*/
 
-.container1 {
-	width: 94%;
+.navigation {
+	width: 100%;
 	height: 80px;
 	margin: 0 auto;
 	
@@ -40,10 +43,10 @@ font-family: Titillium Web;
 
 /* Hero Area - Sign Up Button */
 
-.container2 {
+.hero {
 
 	background-image: url("../images/primaryhero.png");
-	width: 94%;
+	width: 100%;
 	height: 700px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -63,9 +66,12 @@ font-family: Titillium Web;
 
 /*Features Area*/
 
-.container3 {
-	width: 94%;
+.features {
+	width: 100%;
+	padding-bottom: 450px;
+	/*height: 500px;*/
 	margin: 0 auto;
+	float: left;
 	background: #4A90E2; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
@@ -76,15 +82,11 @@ font-family: Titillium Web;
 	
 }
 
-.features1, .features2, .features3 {
-
-
-}
-
 
 .features1, .features2, .features3 w3-third {
 
 	width: 100%
+	/*padding-bottom: 500px;*/
 	margin: 0;
 	float:left;
 
@@ -95,24 +97,47 @@ font-family: Titillium Web;
 
 /*Content Area*/
 
-.container6 {
+.content {
+
+	width: 100%;
+	height: 737px;
+	background-image: url("../images/womenofcolor-hero3.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
 
 
 }
 
-.container6 w3-half {
+.content1 w3-half {
+
+	width: 50%
+	height: 737px;
+	float: left;
 
 
 
 }
 
 
-.container7 {
+.content2 {
+
+	width: 100%;
+	height: 737px;
+	background-image: url("../images/access-photo.png");
+	background-size: cover;
+	background-position: center;
+	float: left;
 
 
 }
 
-.container7 w3-half {
+.content3 w3-half {
+
+
+	width: 50%
+	height: 737px;
+	float: right;
 
 
 	
@@ -120,31 +145,31 @@ font-family: Titillium Web;
 
 /*Who Loves Kerning Area*/
 
-.container8 {
+.promotional {
 
 
 }
 
 
-.container8 w3-half {
-
-
-}
-
-.container9 {
+.promotional1 w3-half {
 
 
 }
 
 
-.container9 w3-half {
-
-	
-}
 
 /*Testimonials*/
 
-.container10 {
+.testimonials {
+	width: 100%
+	float: left;
+
+
+
+}
+
+
+.testimonials1 {
 
 
 
@@ -152,56 +177,130 @@ font-family: Titillium Web;
 
 /*Sign Up Box*/
 
-.container11 {
+.signup {
+
+	width: 100%
+	float: left;
 
 
 }
 
-.container11 w3-half {
+.signup1 w3-half {
 
 
 }
 
 
-.container12 {
+.signup2 {
 
 
 }
 
-.container12 w3-half {
+.signup3 w3-half {
 
 	
 }
 /*Priciing Area*/
 
-.container13 {
+.price_btn a:link {
+
+
+	 background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
 
 
 }
 
-.container13 w3-half {
+.price_btn a:visited {
+
+
+	 background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
+
+
+}
+
+
+.price_btn a:hover {
+
+	 background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+
+
+
+}
+
+
+.price_btn a:active {
+
+
+	 background-color: #EC8200;
+    color: white;
+    width: 127px;
+    height: 127px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.pricing {
+	width: 100%;
+	height: 520px;
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
+	float: left;
+
+
+}
+
+.pricing1 w3-third {
+	
+	width: 33.3%
+	height: 175px;
+	float: left;
 
 	
 }
 
 
-.container14 {
 
-
-}
-
-.container14 w3-half {
+.pricing2 w3-third {
+	float: left;
+	height: 175px;
+	width: 33.3%
 
 	
 }
 
-.container15 {
 
+.pricing3 w3-third {
 
-}
-
-.container15 w3-half {
-
+	float: left;
+	width: 33.3%
+	height: 175px;
 	
 }
 
