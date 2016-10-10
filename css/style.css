@@ -4,6 +4,26 @@ html, body {
 	
 }
 
+p {
+
+	color: white;
+}
+
+h1 {
+
+	font-size: 24px;
+	color: #4A90E2;
+}
+
+h2 {
+
+
+	font-family: TitilliumMaps29L-800wt;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: left;
+}	
+
 
 .contain {
 	width: 1140px;
@@ -18,6 +38,7 @@ html, body {
  ul {
 
 	list-style: none;
+	font-size: 18px;
 }
 
 /*Navigation Area*/
@@ -121,12 +142,40 @@ html, body {
 
 .hero1 {
 
-/*	width: 49%; */
+	width: 49%; 
 	margin: 200px 0 0 0 ;
 	padding-bottom: 400px;
 	float: left;
+	line-height: 1.2em;
+	/*background-color: blue;*/
 
 
+}
+
+.signup_btn a:link {
+
+	width: 30%;
+	background-color: #EC8200;
+    color: #EC8200;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+
+
+
+}
+
+.signup_btn a:hover {
+    background-color: white;
+    color: #EC8200;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
 }
 
 /*Features Area*/
@@ -149,22 +198,35 @@ html, body {
 }
 
 
-.features1, .features2, .features3  {
+.features-photos {
 
-	width: 100%
+	width: 33.3%;
 	margin: 0;
 	float:left;
+	text-align: left;
 
 
 }
 
-.features h2 {
+.features-notes {
 
+	width: 33.3%;
+	float:left;
+	text-align: left;
 
-	font-family: TitilliumMaps29L-800wt;
-	font-size: 34px;
-		color: #FFFFFF;
 }
+
+
+.features-docs {
+
+	width: 33.3%;
+	margin: 0;
+	float:left;
+	text-align: left;
+
+}
+
+
 
 
 /*Content Area*/
