@@ -253,6 +253,28 @@ h2 {
 	/*height: 100%;*/
 }
 
+.content1-text {
+
+	width: 50%;
+	margin-right: 250px;
+	text-align: right;
+	float: right;
+}
+
+.content1-text h2 {
+
+	text-align: right;
+	font-size: 24px;
+}
+
+.content1-text p {
+
+	line-height: 1.2em;
+	font-size: 18px;
+	padding-left: 275px;
+	text-align: right;
+}
+
 
 
 /*.no-rgba {
@@ -278,6 +300,27 @@ h2 {
 	
 }
 
+.content2-text h2, p {
+
+	text-align: left;
+	padding-left: 75px;
+}
+
+.content2-text h2 {
+
+	font-size: 24px;
+}
+
+
+.content2-text p {
+
+	line-height: 1.2em;
+	font-size: 18px;
+	padding-right: 800px;
+
+
+
+}
 /*Who Loves Kerning Area*/
 
 .promotional {
