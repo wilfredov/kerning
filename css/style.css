@@ -367,11 +367,41 @@ h2 {
 
 .testimonials1 {
 	width: 100%;
-	/*padding-top: 100px;
-	padding-bottom: 100px;*/
 	text-align: center;
-	/*background-color: rgba(234, 129, 30,0.72);*/
 	color: white;
+
+
+}
+
+.testimonials1 h2, blockquote, p {
+
+	text-align: center;
+	
+
+
+}
+
+.testimonials1 h2 {
+
+	font-size: 20px;
+	font-weight: bold;
+	
+
+
+}
+
+.testimonials1 blockquote {
+
+	font-size: 18px;
+	
+
+
+}
+
+.testimonials1 p {
+
+	font-size: 12px;
+	
 
 
 }
@@ -482,6 +512,11 @@ h2 {
 
 }
 
+.pricing1, .pricing2, .pricing3 {
+
+	margin-top: 120px;
+}
+
 .pricing1 {
 	
 	width: 33.3%
@@ -497,6 +532,13 @@ h2 {
 	float: left;
 	height: 175px;
 	width: 33.3%
+	background: #4A90E2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
+  
+
 
 	
 }
@@ -511,6 +553,81 @@ h2 {
 }
 
 /*Footer Area*/
+
+.footer {
+		width: 100%;
+		background-color: grey;
+		float: left;
+
+	}
+
+.titlebar { width: 100%; 
+  float: left;}
+
+.titlebar ul li {
+
+	margin: 0;
+	padding-right: 30px;
+  	padding-bottom: 20px;
+	list-style-type: none;
+	text-align: center;
+	display: inline;
+	font-size: 20px;
+	float: left;
+  	color: white;
+}
+
+.containerforlinks {
+
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
+}
+
+.links {
+
+	width: 100%;
+	float: left;
+	padding-bottom: 100px;
+}
+
+.companylist, .supportlist, .productslist, .connectlist {
+
+	font-size: 16px;
+	text-align: left;
+
+}
+
+.companylist {
+
+	float: left;
+	/*margin-left: 160px;*/
+}
+
+.supportlist {
+
+	float: left;
+}
+
+.productslist {
+
+	float: left;
+}
+
+.connectlist {
+
+	float: left;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
