@@ -413,7 +413,8 @@ h2 {
 
 .content-test {
 
-	background-color: rgba(234, 129, 30,0.72);
+	opacity: 0.71;
+	background: #D7E8F3;
 	width: 100%;
 
 }
@@ -427,6 +428,8 @@ h2 {
 
 }
 
+
+
 .testimonials1 h2, blockquote, p {
 
 	text-align: center;
@@ -437,7 +440,12 @@ h2 {
 
 .testimonials1 h2 {
 
-	font-size: 20px;
+	
+	
+	font-family: TitilliumMaps29L-999wt;
+	font-size: 24px;
+	color: #384555;
+	letter-spacing: 0px;
 	font-weight: bold;
 	
 
@@ -446,15 +454,21 @@ h2 {
 
 .testimonials1 blockquote {
 
-	font-size: 18px;
+	font-size: 20px;
+	color: #384555;
 	
 
 
 }
 
-.testimonials1 p {
+.testimonials1 p cite {
 
-	font-size: 12px;
+	
+	/* Austin L.: */
+	font-family: TitilliumMaps29L-1wt;
+	font-size: 16px;
+	color: #384555;
+	letter-spacing: 0px;
 	
 
 
