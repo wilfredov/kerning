@@ -212,18 +212,27 @@ ul {
 	
 }
 
+#container {
+
+	display:inline-flex;
+	width: 100%;
+	/*background-color: green;*/
+	
+}
+
 .features-photos, .features-docs, .features-notes {
 
-	width: 30%;
-	padding-right: 0 1%;
+	width: 40%;
+	padding: 0 6%;
+	margin: 0 auto;
 
 }
 
 
 .features-photos {
 
-	margin: 0;
-	float:left;
+	/*margin: 0;*/
+	/*float:left;*/
 	text-align: left;
 
 
@@ -236,6 +245,7 @@ ul {
 	font-size: 20px;
 	color: #FFFFFF;
 	letter-spacing: .2px;
+	text-align: left;
 
 
 }
@@ -247,16 +257,17 @@ ul {
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
 	color: #FFFFFF;
-	letter-spacing: .1px;
+	letter-spacing: .2px;
 	line-height: 1.5em;
+	text-align: left;
 
 
 }
 
 .features-notes {
 
-	float:left;
-	text-align: left;
+	/*float:left;*/
+	/*text-align: left;*/
 
 }
 
@@ -264,9 +275,9 @@ ul {
 .features-docs {
 
 
-	margin: 0;
-	float:left;
-	text-align: left;
+	/*margin: 0;*/
+	/*float:left;*/
+	/*text-align: left;*/
 
 }
 
@@ -506,17 +517,18 @@ ul {
 .signup {
 
 	width: 100%;
-	padding: 200px 0;
+	padding: 100px 0;
 	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
 	float: left;
-
 
 }
 
 .signup1 {
-	width: 50%;
+	width: 49%;
 	background-color: rgba(234, 129, 30,0.72);
-	padding-bottom: 100px;
+	padding: 100px;
+	padding-right: 1%;
+	padding-left: 0;
 	float: left;
 
 
@@ -526,8 +538,21 @@ ul {
 .signup2 {
 	width: 50%;
 	background-color: rgba(234, 129, 30,0.72);
-	padding-bottom: 100px;
+	padding: 100px 0px;
 	float: right;
+
+}
+
+
+.legal {
+
+
+	font-family: TitilliumMaps29L-400wt;
+	font-size: 11px;
+	color: #999999;
+	letter-spacing: .2px;
+	margin: 0 auto;
+	float: left;
 
 }
 
@@ -694,7 +719,7 @@ ul {
 .companylist {
 
 	float: left;
-	/*margin-left: 160px;*/
+	
 }
 
 .supportlist {
