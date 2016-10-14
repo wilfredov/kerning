@@ -11,6 +11,7 @@ p {
 
 h1 {
 
+	font-family: TitilliumMaps29L-900wt;
 	font-size: 24px;
 	color: #4A90E2;
 }
@@ -24,6 +25,22 @@ h2 {
 	text-align: left;
 }	
 
+/*.features-docs img {
+
+	margin:0 auto;
+	display: block;
+
+}
+*/
+
+ul {
+
+	/*important to remember*/
+	-webkit-padding-start: 0px;
+
+}
+
+
 
 .contain {
 	width: 1140px;
@@ -32,7 +49,7 @@ h2 {
 
 .main-container { 
 	width: 100%;
-	height: 2000px
+	
  }
 
  ul {
@@ -195,10 +212,16 @@ h2 {
 	
 }
 
+.features-photos, .features-docs, .features-notes {
+
+	width: 30%;
+	padding-right: 0 1%;
+
+}
+
 
 .features-photos {
 
-	width: 33.3%;
 	margin: 0;
 	float:left;
 	text-align: left;
@@ -209,19 +232,14 @@ h2 {
 .features-photos, .features-notes, .features-docs, h2 {
 
 
-	font-family: TitilliumMaps29L-999wt;
+	font-family: TitilliumMaps29L-400wt;
 	font-size: 20px;
 	color: #FFFFFF;
-	letter-spacing: 0px;
+	letter-spacing: .2px;
 
 
 }
 
-.features-photos, .features-notes, .features-docs, img {
-
-
-
-}
 
 .features-photos, .features-notes, .features-docs, ul li {
 
@@ -229,7 +247,7 @@ h2 {
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
 	color: #FFFFFF;
-	letter-spacing: 0px;
+	letter-spacing: .1px;
 	line-height: 1.5em;
 
 
@@ -237,7 +255,6 @@ h2 {
 
 .features-notes {
 
-	width: 33.3%;
 	float:left;
 	text-align: left;
 
@@ -246,7 +263,7 @@ h2 {
 
 .features-docs {
 
-	width: 33.3%;
+
 	margin: 0;
 	float:left;
 	text-align: left;
@@ -288,10 +305,10 @@ h2 {
 
 }
 
-.content1-text {
+.content1-text, .content2-text {
 
 	width: 50%;
-	margin-right: 250px;
+	margin-right: 50px;
 	float: right;
 }
 
@@ -308,7 +325,7 @@ h2 {
 
 	line-height: 1.2em;
 	font-size: 18px;
-	padding-left: 275px;
+	/*padding-left: 275px;*/
 	text-align: right;
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
@@ -316,12 +333,6 @@ h2 {
 	letter-spacing: 0px;
 	line-height: 1.2em;
 }
-
-
-
-/*.no-rgba {
-	background-color: none;
-}*/
 
 
 .midsec-hero3 {
@@ -348,12 +359,13 @@ h2 {
 	
 }
 
-.content2-text h2, p {
-
-	padding-left: 75px;
+.content2-text {
 
 
+	margin-left: 50px;
+	float: left;
 }
+
 
 .content2-text h2 {
 
@@ -368,7 +380,7 @@ h2 {
 .content2-text p {
 
 	line-height: 1.2em;
-	padding-right: 800px;
+	/*padding-right: 800px;*/
 	font-size: 16px;
 	color: #4A4A4A;
 	letter-spacing: 0px;
@@ -412,6 +424,7 @@ h2 {
 
 .content-test {
 
+	padding: 100px 0;
 	opacity: 0.71;
 	background: #D7E8F3;
 	width: 100%;
@@ -420,9 +433,10 @@ h2 {
 
 
 .testimonials1 {
-	width: 100%;
+	width: 50%;
 	text-align: center;
 	color: white;
+	margin: 0 auto;
 
 
 }
@@ -446,7 +460,7 @@ h2 {
 	color: #384555;
 	letter-spacing: 0px;
 	font-weight: bold;
-	float: center;
+
 	
 
 
@@ -456,9 +470,7 @@ h2 {
 
 	font-size: 20px;
 	color: #384555;
-	padding-left: 300px;
-	padding-right: 300px;
-	float: center;
+
 	
 
 
@@ -472,7 +484,7 @@ h2 {
 	font-size: 16px;
 	color: #384555;
 	letter-spacing: 0px;
-	float: center;
+
 	
 
 
