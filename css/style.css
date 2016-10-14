@@ -399,7 +399,6 @@ h2 {
 .testimonials {
 
 	width: 100%;
-	padding: 100px 0;
 	float: left;
 	background-image: url("../images/testimonial_pic.png");
 	background-repeat: no-repeat;
@@ -447,6 +446,7 @@ h2 {
 	color: #384555;
 	letter-spacing: 0px;
 	font-weight: bold;
+	float: center;
 	
 
 
@@ -456,6 +456,9 @@ h2 {
 
 	font-size: 20px;
 	color: #384555;
+	padding-left: 300px;
+	padding-right: 300px;
+	float: center;
 	
 
 
@@ -469,6 +472,7 @@ h2 {
 	font-size: 16px;
 	color: #384555;
 	letter-spacing: 0px;
+	float: center;
 	
 
 
