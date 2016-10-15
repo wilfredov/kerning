@@ -25,18 +25,19 @@ h2 {
 	text-align: left;
 }	
 
-/*.features-docs img {
 
-	margin:0 auto;
-	display: block;
+h4 {
+
+
 
 }
-*/
 
 ul {
 
 	/*important to remember*/
 	-webkit-padding-start: 0px;
+	list-style: none;
+	font-size: 18px;
 
 }
 
@@ -52,11 +53,7 @@ ul {
 	
  }
 
- ul {
 
-	list-style: none;
-	font-size: 18px;
-}
 
 /*Navigation Area*/
 
@@ -551,8 +548,11 @@ ul {
 	font-size: 11px;
 	color: #999999;
 	letter-spacing: .2px;
-	margin: 0 auto;
+	margin: 0px auto;
 	float: left;
+	width: 100%;
+	text-align: center;
+
 
 }
 
@@ -623,54 +623,43 @@ ul {
     border-radius: 50%;
 
 }
+
+
+
 .pricing {
 	width: 100%;
-	height: 520px;
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
 	float: left;
 
 
 }
 
+.pricingcontent {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-flex;
+	background-color: #4A90E2;
+}
+
 .pricing1, .pricing2, .pricing3 {
 
-	margin-top: 120px;
+	width: 30%
+	background-color: #4A90E2;
+	margin: 20px 20px;
+
+
 }
 
-.pricing1 {
-	
-	width: 33.3%
-	height: 175px;
-	float: left;
-
-	
-}
 
 
 
 .pricing2  {
-	float: left;
-	height: 175px;
-	width: 33.3%
-	background: #4A90E2; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#80C3F3, #4A90E2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
-  
-
+	
+	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
 
 	
 }
 
-
-.pricing3  {
-
-	float: left;
-	width: 33.3%
-	height: 175px;
-	
-}
 
 /*Footer Area*/
 
