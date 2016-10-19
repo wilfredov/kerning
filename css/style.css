@@ -11,9 +11,11 @@ p {
  
 h1 {
 
-	font-family: TitilliumMaps29L-900wt;
+	font-family: TitilliumMaps29L-800wt;
 	font-size: 24px;
 	color: #4A90E2;
+	text-align: left;
+	line-height: 1em;
 }
 
 h2 {
@@ -164,6 +166,15 @@ ul {
 
 }
 
+/*.hero1, h1 {
+
+	font-family: TitilliumMaps29L-900wt;
+	font-size: 24px;
+	color: #4A90E2;
+	text-align: left;
+}*/
+
+
 .signup_btn a:link {
 
 	width: 30%;
@@ -213,7 +224,6 @@ ul {
 
 	display:inline-flex;
 	width: 100%;
-	/*background-color: green;*/
 	
 }
 
@@ -221,39 +231,30 @@ ul {
 
 	width: 40%;
 	padding: 0 6%;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 
 }
 
 
-.features-photos {
-
-	/*margin: 0;*/
-	/*float:left;*/
-	text-align: left;
-
-
-}
-
-.features-photos, .features-notes, .features-docs, h2 {
+#container h2 {
 
 
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 20px;
-	color: #FFFFFF;
+	color: white;
 	letter-spacing: .2px;
-	text-align: left;
+	/*text-align: left;*/
 
 
 }
 
 
-.features-photos, .features-notes, .features-docs, ul li {
+#container ul li {
 
 
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 16px;
-	color: #FFFFFF;
+	color: white;
 	letter-spacing: .2px;
 	line-height: 1.5em;
 	text-align: left;
@@ -261,22 +262,7 @@ ul {
 
 }
 
-.features-notes {
 
-	/*float:left;*/
-	/*text-align: left;*/
-
-}
-
-
-.features-docs {
-
-
-	/*margin: 0;*/
-	/*float:left;*/
-	/*text-align: left;*/
-
-}
 
 
 
@@ -588,9 +574,6 @@ ul {
     display: inline-block;
     border-radius: 50%;
 
-
-
-
 }
 
 
@@ -638,7 +621,7 @@ ul {
 
 }
 
-.pricing, .contain h1 {
+.pricing h1 {
 
 	width: 100%;
 	/* Pricing: */
@@ -659,7 +642,7 @@ ul {
   	 padding-top: 20px;
 }
 
-.box1, .box2, .box3 {
+.basicplan, .creativeplan, .directorplan {
 
 	width: 33.4%;
     background-color: #4A90E2;
@@ -669,7 +652,7 @@ ul {
 
 }
 
-.box2  {
+.creativeplan  {
 	
 	 
 
@@ -679,7 +662,7 @@ ul {
 	
 }
 
-.box1, .box2, .box3, ul li {
+.basicplan, .creativeplan, .directorplan, ul li {
 
 	font-family: TitilliumMaps29L-400wt;
 	color: white;
@@ -688,7 +671,7 @@ ul {
     
    }
 
-.box2 li {
+.creativeplan li {
 
 	font-family: TitilliumMaps29L-400wt;
 	color: #4A90E2;
@@ -697,7 +680,7 @@ ul {
 
 }
 
-.box1, .box3, h3 {
+.basicplan, .directorplan, h3 {
 
 	font-family: TitilliumMaps29L-400wt;
 	font-size: 24px;
@@ -706,7 +689,7 @@ ul {
 
 }
 
-.box2 h3 {
+.creativeplan h3 {
 
 
 font-family: TitilliumMaps29L-400wt;
@@ -723,49 +706,60 @@ color: #4A90E2;
 
 /*Footer Area*/
 
-.footer {
+footer {
 		width: 100%;
 		background-color: grey;
 		float: left;
 
 	}
 
-.titlebar { width: 100%; 
-  float: left;}
+.titlebar { 
+  width: 100%;
+  /*float: left;*/
+}
 
-.titlebar ul li {
+.titlebar-grey {
+
+	width: 100%;
+	padding-top: 50px;
+	background-color: grey;
+	float: clear;
+}
+
+.titlebar-grey ul li {
 
 	margin: 0;
 	padding-right: 30px;
   	padding-bottom: 20px;
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
 	display: inline;
 	font-size: 20px;
-	float: left;
+	/*float: left;*/
   	color: white;
 }
 
 .containerforlinks {
 
+	width: 100%;
+	float: left;
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
 }
 
 .links {
 
-	width: 100%;
+	/*width: 100%;*/
 	float: left;
 	padding-bottom: 100px;
-}
-
-.companylist, .supportlist, .productslist, .connectlist {
-
 	font-size: 16px;
 	text-align: left;
 
+
 }
 
-.companylist {
+
+
+/*.companylist {
 
 	float: left;
 	
@@ -785,7 +779,7 @@ color: #4A90E2;
 
 	float: left;
 }
-
+*/
 
 
 
