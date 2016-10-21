@@ -399,19 +399,31 @@ ul {
 
 	width: 100%;
 	
-
 }
 
+.promoContain h5 {
 
-.promoContain  ul li {
-
+	font-weight: 200pt;
 	float: left;
-	margin: 100px 10px;
-
+	padding: 0;
+	color: blue;
+	background-color: green;
 	
 
+}
+
+
+.promoContain ul li {
+
+	min-width: 45px;
+	max-width: 257px;
+	float: right;
+	margin: 100px 5px;
+
 
 }
+
+
 
 
 
