@@ -1,18 +1,18 @@
 html, body {
 	font-size: 20px;
-	font-family: Titillium Web; sans-serif;
-	
-	
+	font-family: 'Titillium Web', sans-serif;
+
+
 }
 
 p {
 
 	color: white;
 }
- 
+
 h1 {
 
-	font-weight: 800wt;
+	font-weight: 400;
 	font-size: 34px;
 	color: #4A90E2;
 	text-align: left;
@@ -22,11 +22,11 @@ h1 {
 h2 {
 
 
-	font-weight: 800wt;
+	font-weight: 800;
 	font-size: 30px;
 	color: #FFFFFF;
 	text-align: left;
-}	
+}
 
 
 h4 {
@@ -47,13 +47,31 @@ ul {
 
 
 .contain {
-	width: 1140px;
+	width: 320px;
 	margin: 0 auto;
 }
 
-.main-container { 
+@media (min-width: 768px ) {
+	.contain {
+		width: 720px;
+	}
+}
+
+@media (min-width: 900px ) {
+	.contain {
+		width: 880px;
+	}
+}
+
+@media (min-width: 1180px ) {
+	.contain {
+		width: 1120px;
+	}
+}
+
+.main-container {
 	width: 100%;
-	
+
  }
 
 
@@ -63,7 +81,7 @@ ul {
 .navigation {
 	width: 100%;
 	margin: 0 auto;
-	
+
 
 
 }
@@ -91,7 +109,7 @@ ul {
 	font-weight: 800wt;
 	font-size: 18px;
 	float: right;
-	
+
 
 }
 
@@ -152,17 +170,17 @@ ul {
 	margin-top: 5px;
 
 
-	
+
 }
 
 .hero1 {
 
-	width: 49%; 
+	width: 49%;
 	margin: 200px 0 0 0 ;
 	padding-bottom: 400px;
 	float: left;
 	line-height: 1.2em;
-	
+
 
 
 }
@@ -217,23 +235,27 @@ ul {
     background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
 
-	
-	
+
+
 }
 
 #container {
 
-	display:inline-flex;
+	/*display:inline-flex;*/
 	width: 100%;
-	
+
 }
 
 .features-photos, .features-docs, .features-notes {
+	width: 94%;
+	padding: 0 1%;
+}
 
-	width: 40%;
-	padding: 0 6%;
-	/*margin: 0 auto;*/
-
+@media (min-width: 768px) {
+	.features-photos, .features-docs, .features-notes {
+		width: 31%;
+		float: left;
+	}
 }
 
 
@@ -277,7 +299,7 @@ ul {
 	background-size: cover;
 	background-position: center;
 	float: left;
-	
+
 
 
 }
@@ -351,7 +373,7 @@ ul {
 	padding: 275px 0;
 
 
-	
+
 }
 
 .content2-text {
@@ -398,7 +420,7 @@ ul {
 .promoContain {
 
 	width: 100%;
-	
+
 }
 
 .promoContain h5 {
@@ -408,7 +430,7 @@ ul {
 	padding: 0;
 	color: blue;
 	background-color: green;
-	
+
 
 }
 
@@ -437,7 +459,7 @@ ul {
 	background-repeat: no-repeat;
 	background-size: cover;
 
-	
+
 
 
 
@@ -467,22 +489,22 @@ ul {
 .testimonials1 h2, blockquote, p {
 
 	text-align: center;
-	
+
 
 
 }
 
 .testimonials1 h2 {
 
-	
-	
+
+
 	font-weight: 800wt
 	font-size: 30px;
 	color: #384555;
 	letter-spacing: 0px;
 	font-weight: bold;
 
-	
+
 
 
 }
@@ -492,21 +514,21 @@ ul {
 	font-size: 20px;
 	color: #384555;
 
-	
+
 
 
 }
 
 .testimonials1 p cite {
 
-	
+
 	/* Austin L.: */
 	font-weight: 400wt
 	font-size: 16px;
 	color: #384555;
 	letter-spacing: 0px;
 
-	
+
 
 
 }
@@ -658,7 +680,7 @@ ul {
 	float: left;
 	text-align: center;
 
-	
+
 }
 
 .content {
@@ -680,13 +702,13 @@ ul {
 }
 
 .creativeplan  {
-	
-	 
+
+
 
 	background-color: transparent;
 
 
-	
+
 }
 
 .basicplan, .creativeplan, .directorplan, ul li {
@@ -694,8 +716,8 @@ ul {
 	font-weight: 400wt
 	color: white;
     text-align: center;
-    line-height: 1.2em; 
-    
+    line-height: 1.2em;
+
    }
 
 .creativeplan li {
@@ -703,7 +725,7 @@ ul {
 	font-weight: 400wt
 	color: #4A90E2;
 	letter-spacing: 0px;
-	line-height: 1.2em; 
+	line-height: 1.2em;
 
 }
 
@@ -735,12 +757,12 @@ color: #4A90E2;
 
 footer {
 		width: 100%;
- 		background-color: grey; 
+ 		background-color: grey;
 		float: left;
 
 	}
 
-.titlebar { 
+.titlebar {
   width: 100%;
   float: left;
 /*   background-color: red; */
@@ -765,7 +787,7 @@ footer {
 }
 
 #products {
-  
+
 
   padding-left: 58px;
 }
@@ -777,32 +799,18 @@ footer {
 }
 
 .linksFooter ul {
-  
+
   color: grey;
   float: left;
   padding-right: 40px;
   font-size: 16px;
-  
+
 }
 
 
 
 .productsList {
-  
+
   margin-left: -10px;
-  
+
 }
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
