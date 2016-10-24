@@ -13,8 +13,8 @@ p {
 h1 {
 
 	font-weight: 800wt;
-	font-size: 34px;
-	color: #4A90E2;
+	font-size: 1.8em;
+	color: red;
 	text-align: left;
 	line-height: 1em;
 }
@@ -22,14 +22,40 @@ h1 {
 h2 {
 
 
-	font-weight: 800wt;
-	font-size: 30px;
-	color: #FFFFFF;
-	text-align: left;
+	font-weight: 400wt;
+	font-size: 1em;
+	color: yellow;
+	letter-spacing: .2px;
+	
 }	
 
 
+
+h3 {
+
+
+	font-weight: 400wt
+	font-size: 1.4em;
+
+}
+
+
 h4 {
+
+	font-weight: 200wt
+	font-size: .9em;
+	color: orange;
+	letter-spacing: .2px;
+
+
+
+}
+
+h5 {
+
+
+
+
 
 
 
@@ -107,7 +133,7 @@ ul {
 .signup_text {
 
 	font-weight: 800wt;
-	font-size: 18px;
+	font-size: .8em;
 	float: right;
 	
 
@@ -185,14 +211,6 @@ ul {
 
 }
 
-/*.hero1, h1 {
-
-	font-family: TitilliumMaps29L-900wt;
-	font-size: 24px;
-	color: #4A90E2;
-	text-align: left;
-}*/
-
 
 .signup_btn a:link {
 
@@ -266,10 +284,7 @@ ul {
 #container h2 {
 
 
-	font-weight: 400wt;
-	font-size: 20px;
-	color: white;
-	letter-spacing: .2px;
+	
 	/*text-align: left;*/
 
 
@@ -312,16 +327,8 @@ ul {
 
 	width: 50%;
 	float: left;
-	text-align: right;
 	opacity: 0.97;
-	background: #CFE3F1;
-	opacity: 0.71;
 	background: rgba(207,227,241,0.72);
-	font-weight: 400wt;
-	font-size: 40px;
-	color: #4A4A4A;
-	letter-spacing: 0px;
-	line-height: 26px;
 	padding: 275px 0;
 
 }
@@ -335,24 +342,16 @@ ul {
 
 .content1-text h2 {
 
-	font-weight: 800wt
-	font-size: 20px;
-	color: #4A4A4A;
-	letter-spacing: 0px;
 	text-align: right;
 }
 
 .content1-text p {
 
 	line-height: 1.2em;
-	font-size: 18px;
-	/*padding-left: 275px;*/
-	text-align: right;
-	font-weight: 400wt
-	font-size: 16px;
+	font-size: .9em;
 	color: #4A4A4A;
 	letter-spacing: 0px;
-	line-height: 1.2em;
+	text-align: right;
 }
 
 
@@ -362,18 +361,13 @@ ul {
 
 }
 
-.content3  {
+.content2  {
 
 
 	width: 50%;
 	float: right;
 	opacity: 0.97;
-	background: #CFE3F1;
-	opacity: 0.71;
 	background: rgba(207,227,241,0.72);
-	font-weight: 400wt
-	color: #4A4A4A;
-	letter-spacing: 0px;
 	padding: 275px 0;
 
 
@@ -390,10 +384,7 @@ ul {
 
 .content2-text h2 {
 
-	font-weight: 800wt
-	font-size: 20px;
-	color: #4A4A4A;
-	letter-spacing: 0px;
+	
 	text-align: left;
 }
 
@@ -402,7 +393,7 @@ ul {
 
 	line-height: 1.2em;
 	/*padding-right: 800px;*/
-	font-size: 16px;
+	font-size: .9em;
 	color: #4A4A4A;
 	letter-spacing: 0px;
 	text-align: left;
@@ -492,15 +483,9 @@ ul {
 
 
 
-.testimonials1 h2 {
+.testimonials1 h1 {
 
 	
-	
-	font-weight: 800wt
-	font-size: 30px;
-	color: #384555;
-	letter-spacing: 0px;
-	font-weight: bold;
 	text-align: center;
 	
 
@@ -577,10 +562,7 @@ ul {
 .legal {
 
 
-	font-weight: 400wt
-	font-size: 11px;
-	color: #999999;
-	letter-spacing: .2px;
+	
 	margin: 0px auto;
 	float: left;
 	width: 100%;
@@ -668,12 +650,9 @@ ul {
 
 }
 
-.pricing h2 {
+.pricing h1 {
 
 	width: 100%;
-	/* Pricing: */
-	font-weight: 800wt
-	font-size: 30px;
 	color: #4A90E2;
 	float: left;
 	text-align: center;
@@ -729,8 +708,7 @@ ul {
 
 .basicplan, .directorplan, h3 {
 
-	font-weight: 400wt
-	font-size: 24px;
+	
 	color: white;
 
 
@@ -739,8 +717,7 @@ ul {
 .creativeplan h3 {
 
 
-font-weight: 400wt
-font-size: 24px;
+
 color: #4A90E2;
 }
 
