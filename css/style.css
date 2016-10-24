@@ -47,8 +47,26 @@ ul {
 
 
 .contain {
-	width: 1140px;
+	width: 320px;
 	margin: 0 auto;
+}
+
+@media (min-width: 768px ) {
+	.contain {
+		width: 720px;
+	}
+}
+
+@media (min-width: 900px ) {
+	.contain {
+		width: 880px;
+	}
+}
+
+@media (min-width: 1180px ) {
+	.contain {
+		width: 1140px;
+	}
 }
 
 .main-container { 
@@ -223,18 +241,26 @@ ul {
 
 #container {
 
-	display:inline-flex;
+	/*display:inline-flex;*/
 	width: 100%;
 	
 }
 
 .features-photos, .features-docs, .features-notes {
 
-	width: 40%;
-	padding: 0 6%;
+	width: 94%;
+	padding: 0 1%;
 	/*margin: 0 auto;*/
 
 }
+
+@media (min-width: 768px) {
+	.features-photos, .features-docs, .features-notes {
+		width: 31%;
+		float: left;
+	}
+}
+
 
 
 #container h2 {
@@ -464,13 +490,7 @@ ul {
 
 
 
-.testimonials1 h2, blockquote, p {
 
-	text-align: center;
-	
-
-
-}
 
 .testimonials1 h2 {
 
@@ -481,7 +501,7 @@ ul {
 	color: #384555;
 	letter-spacing: 0px;
 	font-weight: bold;
-
+	text-align: center;
 	
 
 
@@ -569,7 +589,7 @@ ul {
 
 }
 
-/*Priciing Area*/
+/*Pricing Area*/
 
 .price_btn a:link {
 
