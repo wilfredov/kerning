@@ -46,7 +46,6 @@ h4 {
 	font-size: .6em;
 	font-weight: 100;
 	color: grey;
-	letter-spacing: .2px;
 	text-align: center;
 
 
@@ -75,8 +74,9 @@ ul {
 
 
 .contain {
-	width: 320px;
+	width: 1080px;
 	margin: 0 auto;
+	border: .5px dotted black;
 }
 
 @media (min-width: 768px ) {
@@ -109,6 +109,7 @@ ul {
 .navigation {
 	width: 100%;
 	margin: 0 auto;
+	border: 1px solid red;
 	
 
 
@@ -119,11 +120,16 @@ ul {
 	width: 50%;
 	float: left;
 
+
 }
 
 .nav1, img {
 
-	margin-top: 5px;
+	/*margin-top: 5px;*/
+	padding-left: -130px;
+	/*border: 1px solid green;*/
+
+
 }
 
 
@@ -132,7 +138,6 @@ ul {
 	font-weight: 600;
 	font-size: .8em;
 	float: right;
-	
 
 }
 
@@ -249,49 +254,58 @@ ul {
     background: -o-linear-gradient(#80C3F3, #4A90E2); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#80C3F3, #4A90E2); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#80C3F3, #4A90E2); /* Standard syntax (must be last) */
-
+    /*border: 1px solid red;*/
 	
 	
 }
 
 
-#container {
-
-
-	width: 100%;
-	float: left;
-	
-}
 
 .features-photos, .features-notes, .features-docs {
 
 	width: 31%;
-	border: 1px solid white;
+	float: left;
+
+
+}
+
+.contain img {
+
+	
+	padding-left: 130px;
+	/*border: 1px solid white;*/
 
 
 }
 
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 	.features-photos, .features-docs, .features-notes {
 		width: 31%;
 		float: left;
 	}
-}
+
+	#container {
+
+		width: 100%;
+		float: left;
+		border: 1px solid green;
+	}
+}*/
 
 
 
-#container h2 {
+.contain h2 {
 
 
 	
-	/*text-align: left;*/
+	text-align: center;
 
 
 }
 
 
-#container ul li {
+.contain ul li {
 
 
 	font-weight: 400;
@@ -299,7 +313,7 @@ ul {
 	color: white;
 	letter-spacing: .2px;
 	line-height: 1.5em;
-	text-align: left;
+	text-align: center;
 
 
 }
@@ -403,11 +417,8 @@ ul {
 /*Who Loves Kerning Area*/
 
 .promotional {
+	
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
-	/*width: 100%;*/
-	/*padding-top: 100px;*/
-  	/*margin: 0 auto;*/
-/* 	float: left; */
 
 
 }
@@ -417,7 +428,7 @@ ul {
 
 	
 	vertical-align: middle;
-	border: 1px solid #333333;
+	float: left;
 	
 }
 
@@ -474,11 +485,11 @@ ul {
 
 }
 
-.content-test {
+.content-transcolor {
 
+	width: 100%;
 	padding: 100px 0;
 	background: rgba(207,227,241,0.72);
-	width: 100%;
 
 }
 
@@ -488,6 +499,8 @@ ul {
 	text-align: center;
 	color: white;
 	margin: 0 auto;
+	/*background-color: green;*/
+	/*border: 1px solid red;*/
 
 
 }
@@ -550,41 +563,36 @@ ul {
 .signup {
 
 	width: 100%;
-	padding: 100px 0;
 	background-image: linear-gradient(-180deg, #80C3F3 0%, #4A90E2 100%);
 	float: left;
+	/*border: 1px solid red;*/
 
 }
 
 
-@media (min-width: 768px) {
-	
-	.signup1, .signup2 {
-		width: 49%;
-		float: left;
-
-
-	}
-}
-
-.signup1 {
-	width: 50%;
+.signup1, .signup2 {
+	width: 49%;
 	float: left;
 	line-height: .1em;
-	padding-bottom: 100px;
+	padding: 50px 0;
+	/*border: 1px solid white;*/
 
 
 }
 
+.signup2 img {
 
-.signup2 {
-	width: 49%;
-	/*float: left;*/
-	/*margin-left: 10px;*/
-	
-	
-
+	border: 1px solid red;
 }
+
+.legal {
+
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+
 
 
 #createLogIn {
