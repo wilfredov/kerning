@@ -74,9 +74,10 @@ ul {
 
 
 .contain {
-	width: 1080px;
+	width: 1200px;
+	height: 300px;
 	margin: 0 auto;
-	border: .5px dotted black;
+	/*border: .5px dotted yellow;*/
 }
 
 @media (min-width: 768px ) {
@@ -107,9 +108,10 @@ ul {
 /*Navigation Area*/
 
 .navigation {
-	width: 100%;
+	width: 1200px;
 	margin: 0 auto;
-	border: 1px solid red;
+	padding-top: 25px;
+	/*border: 1px solid red;*/
 	
 
 
@@ -125,7 +127,7 @@ ul {
 
 .nav1, img {
 
-	/*margin-top: 5px;*/
+	margin-top: 5px;
 	padding-left: -130px;
 	/*border: 1px solid green;*/
 
@@ -305,15 +307,15 @@ ul {
 }
 
 
-.contain ul li {
+ul.contain  {
 
 
-	font-weight: 400;
+	/*font-weight: 400;
 	font-size: 16px;
-	color: white;
+	color: red;
 	letter-spacing: .2px;
 	line-height: 1.5em;
-	text-align: center;
+	text-align: center;*/
 
 
 }
@@ -448,7 +450,7 @@ ul {
 	/*min-width: 40px;*/
 	/*max-width: 257px;*/
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 
 
 }
@@ -488,8 +490,9 @@ ul {
 .content-transcolor {
 
 	width: 100%;
-	padding: 100px 0;
+	/*padding: 100px 0;*/
 	background: rgba(207,227,241,0.72);
+	float: left;
 
 }
 
@@ -582,14 +585,14 @@ ul {
 
 .signup2 img {
 
-	border: 1px solid red;
+	padding-top: 55px;
 }
 
 .legal {
 
 	width: 100%;
 	float: left;
-	padding-bottom: 40px;
+	padding-bottom: 10px;
 }
 
 
@@ -681,11 +684,9 @@ input[type=submit]:focus {
     text-decoration: none;
     display: inline-block;
     border-radius: 50%;
-
-
-
-
-
+    margin-left: 130px;
+    margin-top: 20px;
+ 
 }
 
 .price_btn a:visited {
@@ -740,8 +741,8 @@ input[type=submit]:focus {
 .pricing {
 	width: 100%;
 	background-image: linear-gradient(-180deg, #E9F3F9 0%, #CFE3F1 100%);
-	padding-top: 20px;
 	float: left;
+
 	
 
 
@@ -752,42 +753,56 @@ input[type=submit]:focus {
 	width: 100%;
 	text-align: center;
 	color: #4A90E2;
-	float: left;
+	/*float: left;*/
 
 
 	
 }
 
-.content {
+/*.content {
 
 
 	 width: 100%;
   	 padding-top: 20px;
   	 float: left;
-}
+}*/
 
-.basicplan, .creativeplan, .directorplan {
+.basicPlan {
 
 	width: 33%;
     background-color: #4A90E2;
-    padding-top: 20px;
     float: left;
-
-
+    /*border: 1px solid red;*/
 
 }
 
-.creativeplan  {
-	
-	 
 
+.creativePlan  {
+	
+	width: 33%;
+	float: left;
 	background-color: transparent;
+	/*border: 1px solid red;*/
 
 
 	
 }
 
-.basicplan, .creativeplan, .directorplan, ul li {
+
+.directorPlan {
+
+	width: 33%;
+    background-color: #4A90E2;
+    float: left;
+    /*border: 1px solid red;*/
+
+
+
+}
+
+
+
+.basicPlan ul li, .directorPlan ul li {
 
 	font-weight: 400;
 	color: white;
@@ -795,33 +810,29 @@ input[type=submit]:focus {
     line-height: 1.2em; 
     
    }
+ 
 
-.creativeplan li {
+.creativePlan ul li {
 
 	font-weight: 400;
 	color: #4A90E2;
-	letter-spacing: 0px;
-	line-height: 1.2em; 
+    text-align: center;
+    line-height: 1.2em; 
+    
+   }
 
-}
 
-.basicplan, .directorplan, h3 {
+.basicPlan p, .directorPlan p {
 
 	color: white;
-
+	text-align: center;
 }
 
-.creativeplan h3 {
+.creativePlan p {
+
 	color: #4A90E2;
+	text-align: center;
 }
-
-
-
-
-
-
-
-
 /*Footer Area*/
 
 footer {
@@ -830,11 +841,19 @@ footer {
 		float: left;
 
 	}
+.containFooter {
+
+	width: 1080px;
+	height: 200px;
+	margin: 0 auto;
+	/*border: 1px dotted black;*/
+
+}
 
 .titlebar { 
   width: 100%;
   float: left;
-/*   background-color: red; */
+  
 }
 
 
@@ -843,22 +862,21 @@ footer {
 
 	margin: 0px auto;
 	padding-right: 20px;
-  padding-bottom: 20px;
+  	padding-bottom: 20px;
 	list-style-type: none;
-/* 	text-align: left; */
-/* 	display: inline; */
-  background-color: grey;
-/*   width: 100%; */
-  text-align: left;
+  	background-color: grey;
+  	text-align: left;
 	font-size: 20px;
 	float: left;
-  color: white;
+  	color: white;
+  
 }
 
 #products {
   
 
-  padding-left: 58px;
+  padding-left: 53px;
+  
 }
 
 .linksFooter {
@@ -867,22 +885,16 @@ footer {
   float: left;
 }
 
-.linksFooter ul {
+ul.companyList, .supportList, .productsList, .connectList  {
   
-  color: grey;
+  color: white;
   float: left;
-  padding-right: 40px;
+  padding-right: 35px;
   font-size: 16px;
   
 }
 
 
-
-.productsList {
-  
-  margin-left: -10px;
-  
-}
 
 
 
