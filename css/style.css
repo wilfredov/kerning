@@ -462,7 +462,7 @@ ul.contain  {
 	vertical-align: middle;
 }
 
-.loves1, img {
+.loves1 img {
 
 	padding-right: 30px;
 }
@@ -686,7 +686,7 @@ input[type=submit]:focus {
     border-radius: 50%;
     margin-left: 130px;
     margin-top: 20px;
- 
+
 }
 
 .price_btn a:visited {
