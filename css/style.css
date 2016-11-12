@@ -75,9 +75,8 @@ ul {
 
 .contain {
 	width: 1200px;
-	height: 300px;
 	margin: 0 auto;
-	/*border: .5px dotted yellow;*/
+	/*border: .5px dotted black;*/
 }
 
 @media (min-width: 768px ) {
@@ -297,25 +296,23 @@ ul {
 
 
 
-.contain h2 {
+.features-photos h2, .features-notes h2, .features-docs h2 {
 
-
-	
 	text-align: center;
 
 
 }
 
 
-ul.contain  {
+.features-photos ul, .features-notes ul, .features-docs ul {
 
 
-	/*font-weight: 400;
+	font-weight: 200;
 	font-size: 16px;
-	color: red;
+	color: white;
 	letter-spacing: .2px;
 	line-height: 1.5em;
-	text-align: center;*/
+	text-align: center;
 
 
 }
@@ -531,34 +528,41 @@ ul.contain  {
 
 }
 
-.testimonials1 p cite {
+.userid cite {
 
 	
 	/* Austin L.: */
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 1em;
-	color: #384555;
-	letter-spacing: 0px;
+	color: white;
+	float: left;
+	
+
+
+}
+
+.userid img {
+
+	
+	float:left;
 
 	
 
 
 }
 
-.userid {
+.userid p {
 
+	
+	/* Austin L.: */
+	font-weight: 600;
+	font-size: .7em;
+	color: white;
 	float: left;
+
+
 }
 
-.userid cite {
-
-	float: left;
-}
-
-.userid cite {
-
-	float: left;
-}
 
 
 /*Sign Up Box*/
@@ -652,6 +656,8 @@ input[type=submit] {
     font-weight: 400;
     border: 0;
     margin: 10px 0 0;
+    width: 50%;
+    height: 40px;
 }
 
 
@@ -673,20 +679,32 @@ input[type=submit]:focus {
 
 /*Pricing Area*/
 
-.price_btn a:link {
+.price_btn {
 
 
-	background-color: #EC8200;
-    color: white;
+	  background-color: #EC8200;
     width: 127px;
     height: 127px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
     border-radius: 50%;
     margin-left: 130px;
     margin-top: 20px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
 
+}
+
+.price_btn a:link {
+
+
+
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+   
 }
 
 .price_btn a:visited {
@@ -696,9 +714,9 @@ input[type=submit]:focus {
     color: white;
     width: 127px;
     height: 127px;
-    text-align: center;
+   /* text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block;*/
     border-radius: 50%;
 
 }
@@ -710,9 +728,9 @@ input[type=submit]:focus {
     color: white;
     width: 127px;
     height: 127px;
-    text-align: center;
+   /* text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block;*/
     border-radius: 50%;
 
 
@@ -728,9 +746,9 @@ input[type=submit]:focus {
     color: white;
     width: 127px;
     height: 127px;
-    text-align: center;
+   /* text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block;*/
     border-radius: 50%;
 
 
