@@ -1,0 +1,76 @@
+html, body {
+	font-size: 20px;
+	font-family: Titillium Web; sans-serif;
+	background-color: #F0F5F9;
+	border: 1px solid red;
+	
+	
+}
+
+.main-container {
+
+	
+
+}
+
+
+
+
+
+/*Navigation Area*/
+
+nav {
+	
+	width: 1200px;
+	margin: 0 auto;
+	/*padding-top: 80px;*/
+	background-color: black;
+	
+}
+
+.nav1 {
+
+	width: 49%;
+	padding-bottom: 27px;
+	float: left;
+	background-color: green;
+
+
+
+}
+
+.logo {
+
+	width: 150px;
+	height: 33px;
+	background-color: pink;
+	margin-top: 20px;
+	float: left;
+
+}
+
+.category, .new-selection{
+
+	background-color: white;
+	width: 100px;
+	height: 25px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+
+
+.user {
+
+	width: 49%;
+	padding-top: 80px;
+	float: left;
+	background-color: blue;
+
+
+
+}
+
+

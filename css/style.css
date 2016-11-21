@@ -528,33 +528,37 @@ ul {
 
 }
 
-.userid cite {
+.userid {
 
-	
-	/* Austin L.: */
-	font-weight: 200;
-	font-size: 1em;
-	color: white;
-	
-	
-
+	width: 50%;
+	background-color: green;
+	margin: 0 auto;
 
 }
 
 .userid img {
 
-	
-	float:left;
+	width: 50px;
+	height: 50px;
+	/*float:left;*/
+
+	}
+
+.userid cite {
 
 	
+	font-weight: 200;
+	font-size: 1em;
+	color: white;
 
 
 }
 
+
+
 .userid p {
 
 	
-	/* Austin L.: */
 	font-weight: 600;
 	font-size: .7em;
 	color: white;
