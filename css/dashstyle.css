@@ -32,7 +32,7 @@ nav {
 
 .nav1 {
 
-	width: 49%;
+	width: 50%;
 	padding-bottom: 27px;
 	float: left;
 	background-color: green;
@@ -66,11 +66,11 @@ nav {
 
 .user {
 
-	width: 49%;
+	width: 50%;
 	padding-top: 80px;
 	float: left;
 	background-color: blue;
-	margin-left: 10px;
+	/*margin-left: 24px;*/
 
 
 
@@ -79,9 +79,15 @@ nav {
 .leftside, .rightside {
 
 	width: 50%;
-	padding-top: 500px;
-	background-color: yellow;
+	padding-top: 60px;
+	background-color: red;
 	float: left;
+	margin-top: 20px;
+}
+
+.rightside {
+
+	background-color: pink;
 }
 
 
