@@ -76,6 +76,8 @@ nav {
 
 }
 
+/*Secondary Navigation*/
+
 .leftside, .rightside {
 
 	width: 50%;
@@ -89,5 +91,58 @@ nav {
 
 	background-color: pink;
 }
+
+/*Gallery Area*/
+
+.fex-container {
+
+	
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #dadada;
+  width: 25%;
+  min-height: 200px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+  .flex-item {
+    background: #dadada;
+    width: 46%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+  .flex-item {
+    background: #dadada;
+    width: 25%;
+  }
+  
+  .quarters {
+    width: 22%;
+  }
+} 
 
 
