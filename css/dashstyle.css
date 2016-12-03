@@ -15,7 +15,7 @@ html, body {
 
 .contain {
 
-	width: 1200px;
+	/*width: 1200px;*/
 	margin: 0 auto;
 }
 
@@ -94,9 +94,8 @@ nav {
 
 /*Gallery Area*/
 
-.fex-container {
-
-	
+.flex-contain {
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
@@ -105,7 +104,7 @@ nav {
 
 .flex-item {
   background: #dadada;
-  width: 25%;
+  width: 100%;
   min-height: 200px;
   margin-top: 10px;
   line-height: 150px;
@@ -116,13 +115,13 @@ nav {
 }
 
 @media (min-width: 500px) {
-  .container {
+  .flex-contain {
     width: 480px;
   }
 }
 
 @media (min-width: 768px) {
-  .container {
+  .flex-contain {
     width: 740px;
   }
   .flex-item {
@@ -132,7 +131,7 @@ nav {
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .flex-contain {
     width: 980px;
   }
   .flex-item {
